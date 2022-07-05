@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #201F1F;
+}
+
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+
+@media screen and (min-width: 200px) {
+    
+
+    .container{
+        
+        width: 100%;
+    }
+    .logo img {
+        width: 100%;
+    }
+ 
+}
+  
+
+ 
+
+@media screen and (max-width: 1024px) {
+    
+    .container{
+        
+        width: 25%;
+    }
+    .logo img {
+        width: 100%;
+    }
+ 
+}
+
+.container{
+    width: 800px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* SEJA BEM VINDO */
+
+
+
+.box-title{
+
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;  
+    align-items: center;
+    text-align: center;  
+    color: #FFFFFF;
+    
+}
+
+.title {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    
+}
+
+/*BOX 1*/
+
+.box1 {
+      
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 25px; 
+    height: 194px;
+    width: 100%;
+    background-color: #FFFFFF;
+   
+}
+
+.logo {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    height: 194px;
+    width: 60%;
+    
+    
+}
+
+
+/* IR PARA PROXIMO */
+
+.box2 {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    height: 51px;
+    width: 311px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    
+   
+
+}
+
+.text2 {
+
+    background-image: url(../img/page1/icons8-chevron-right-26\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 170px;
+    width: 206px;
+    height: 35px;
+    margin-top: 1px;    
+    color: #201F1F;
+    font-family: 'Roboto';
+   
+   
+}
+
+
+
+
+
+
+

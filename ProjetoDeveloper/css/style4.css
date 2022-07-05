@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+/* TOPO */
+
+.topimg {
+    width: 100%;
+    display: flex;
+    
+    background-color: #333333;
+}
+
+.topimg img {
+    width: 100%;
+    position: relative;
+    opacity: 25%;
+}
+
+.logo {
+    
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+
+}
+
+.logo img {
+    position: absolute;
+    width: 30%;
+    margin: 20%;
+   
+}
+
+/* MEIO */
+
+
+.box-bottons {
+    /* padding: 2%; */
+    justify-content: space-evenly;
+    display: flex;
+    width: 25em;
+    gap: 2px;
+    /* border: solid green 3px; */
+   
+}
+
+.bottons {
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+
+.item-i2,
+.item-i1 {
+    text-decoration: none;
+}
+.item-i1 {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(2, 2, 2);
+    border-radius: 5px;
+    padding: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: solid gray 2px;
+}
+.item-i1:hover{
+    transition: all 0.8s ease-in-out;
+    background-color: black;
+    color: white
+}
+
+.item-i2{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item-i2:hover{
+    transition: all 0.8s ease-in-out;
+    background-color: rgb(255, 241, 241);
+    color: rgb(0, 0, 0);
+    border: solid gray 2px;
+}
+
+
+
+
+/* MEIO REDES SOCIAIS */
+
+.box-socialmedia {
+    width: 20em;
+}
+
+.item-i3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    flex-wrap: wrap;
+}
+.item-i3 img{
+    cursor: pointer;
+    background-color: #000000;
+    padding: 3%;
+    border-radius: 10px;
+    
+}
+
+/* CARDS*/
+
+.container-cards {
+    width: 100%;
+}
+.card-box {
+    display: flex;
+   
+    width: 100%;
+    padding: 1%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.cards {
+    display: flex;
+    padding: 1%;
+    margin: 8px;
+    height: 28vh;
+    width: 24em;
+    border-radius: 8px;
+    border: solid rgba(109, 109, 109, 0.829) 1px;
+    word-break: break-all;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cards:hover{
+    display: flex;
+    padding: 1%;
+    margin: 8px;
+    height: 28vh;
+    width: 24em;
+    border-radius: 8px;
+    border: solid rgba(109, 109, 109, 0.829) 1px;
+    word-break: break-all;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline;
+    justify-content: space-around;
+    color: white;
+    transition: all 1s ease-in-out ;
+    background-color: #000000;
+
+}
+
+.EntryC {
+    
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: #000000;
+    transition: all 0.8s ease-in-out ;
+}
+
+.EntryC:hover {
+    color: white;
+    transition: all 0.8s ease-in-out ;   
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.price{
+    width: 35%;
+}
+.price input {
+    width: 100%;
+    border: 0;
+    background-color: #04D361;
+    border-radius: 10px;
+    padding: 8%;
+    transition: all 0.8s ease-in-out ;
+    cursor: pointer;
+}
+
+.price input:hover {
+    cursor: pointer;
+    width: 100%;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    padding: 8%;
+    transition: all 0.8s ease-in-out;
+}

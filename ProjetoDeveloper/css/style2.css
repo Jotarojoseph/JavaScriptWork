@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+        font-family: 'Roboto';
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+main {
+        width: 100%;
+        height: 100vh;
+    
+}
+
+.container {
+    
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-direction: row;
+   
+}
+
+.topimg{
+    width: 100%;
+
+}
+
+.container-box{
+    
+   
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.box1,
+.box2{
+padding: 20px;
+width: 100%;
+text-align: justify;
+   
+    
+}
+
+.footerimg {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerimg img {
+    width: 500px;
+}
+
+
+.box3{
+  margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+   
+
+}
+
+
+
+
+.next { 
+    background-image: url(../img/page1/icons8-chevron-right-26\ 1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35px;
+    margin-left: 7px;
+    margin-top: 8px;
+
+}
+
+
+
+
+@media screen and (min-width: 200px) {
+
+
+    
+    .container {
+
+        width: 100%;
+
+    }
+    .topimg img {
+        width: 100%;
+        
+    }
+
+    .footerimg {
+        
+        width: 100%;
+    }
+  
+ 
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container-box{
+        flex-wrap: wrap;
+    }
+    .container {
+        width: 100%;
+    }
+    
+
+    .topimg img {
+        width: 100%;
+    }
+
+    .footerimg img{
+
+        width: 50%;
+ 
+    }
+
+   
+}

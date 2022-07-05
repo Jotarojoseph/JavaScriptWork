@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+   
+    border: solid 3px red;
+}
+
+
+input {
+    color: white;
+    background-color: #2d2b2afd;
+    padding: 1%;
+    border-radius: 10px;
+}
