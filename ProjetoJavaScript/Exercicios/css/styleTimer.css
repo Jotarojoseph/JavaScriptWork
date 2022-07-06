@@ -1,0 +1,62 @@
+
+
+body {
+    display: flex;
+    background-color: blueviolet;
+    font: normal 15pt arial;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(-45deg, hsl(253, 90%, 29%), #dbdf07, #db4d0b, #081fe9 );
+    animation: backgroundTransition 8s ease-in-out infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes backgroundTransition {
+
+	0%{
+		background-position: 0% 80%;
+	}
+	50% {
+		background-position: 80% 100%;
+	}
+	100%{
+		background-position: 0% 90%;
+	}
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 51%);
+    flex-direction: column;
+
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.text{
+    text-align: center;
+    padding: 8px;
+}
+.cedo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.cedo img {
+    width: 70%;
+    height: 32vw;
+    border-radius: 50%;
+}

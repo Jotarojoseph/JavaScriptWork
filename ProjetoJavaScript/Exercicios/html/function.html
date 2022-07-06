@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Function</title>
+    <link rel="stylesheet" href="../css/styleFunction.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  </head>
+  <body>
+    <div class="container">
+        <form>
+          <label>Digite o valor de X:</label> <br>
+          <input type="number" name="valorx" id="valorx" placeholder="..."> 
+          <br><br>
+          <label>Digite o valor de Y:</label> 
+          <br><br>
+          <input type="number" name="valory" id="valory" placeholder="..."> 
+          <br><br>     
+          <input onclick="somar(event)" type="submit" name="soma" id="soma" value="+">
+          <input onclick="subtrair(event)"type="submit" name="sub" id="sub" value="-">
+          <input onclick="dividir(event)"type="submit" name="div" id="div" value="/">
+          <input onclick="multiplicar(event)" type="submit" name="mult" id="mult" value="*">
+          
+        </form>     
+      <div class="resultado" id="resultado"></div>
+    </div>
+  <script src="../js/function.js"></script>
+  </body>
+      </html>
