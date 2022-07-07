@@ -1,5 +1,3 @@
-
-
 var bot = window.document.getElementById('botao');
 
     bot.addEventListener('click', clicar)
