@@ -107,15 +107,16 @@ p{
     border: inherit;
     height: 50px;
     border-radius: 10px;
-    
-}
-
-.style-botton:hover{
-    cursor: pointer;
+    transition: ease-in-out 0.5s ;
     background-image: url(../img/icon-cart.svg);
     background-repeat: no-repeat;
     background-position: left center;
     background-position: 100px;
+}
+
+.style-botton:hover{
+    cursor: pointer;
+   
     color: rgb(255, 255, 255);
     background-color:rgba(4, 36, 4, 0.87);
     
