@@ -10,6 +10,8 @@
 body{
     background-color: hsl(30, 38%, 92%);
 }
+
+
 .flex-container{
     flex-direction: column;
     align-items: center;
@@ -118,3 +120,12 @@ p{
     background-color:rgba(4, 36, 4, 0.87);
     
 }
+
+
+  
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    *{
+      width: 100%;
+    }
+  }
