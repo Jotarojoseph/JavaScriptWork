@@ -8,6 +8,7 @@ var mult;
 function somar(event){
 
   event.preventDefault();
+  
   valorx = document.getElementById('valorx').value;
   valory = document.getElementById('valory').value;
   
